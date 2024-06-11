@@ -10,6 +10,10 @@ public class CustomerModule {
 public static void demo() {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.instagram.com");
-		Reporter.log("CustomerModule",true);
+		Reporter.log(driver.getTitle(),true);
+}
+	@Test
+	public static void demoA() {
+		Reporter.log("Create Customer",true);
 }
 }
