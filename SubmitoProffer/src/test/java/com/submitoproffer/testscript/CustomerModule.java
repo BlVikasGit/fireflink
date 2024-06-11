@@ -12,5 +12,11 @@ public static void demo() {
 		driver.get("https://www.instagram.com");
 		Reporter.log(driver.getTitle(),true);
 }
+	@Test
+	public static void demoA() {
+		WebDriver driver=new ChromeDriver();
+		//driver.get("https://www.instagram.com");
+		Reporter.log("hello",true);
+}
 	
 }
