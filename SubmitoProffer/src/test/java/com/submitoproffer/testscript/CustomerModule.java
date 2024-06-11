@@ -14,7 +14,7 @@ public static void demo() {
 }
 	@Test
 	public static void demoA() {
-		WebDriver driver=new ChromeDriver();
+		
 		//driver.get("https://www.instagram.com");
 		Reporter.log("hello",true);
 }
