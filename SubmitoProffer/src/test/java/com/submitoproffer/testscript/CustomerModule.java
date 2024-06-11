@@ -12,8 +12,5 @@ public static void demo() {
 		driver.get("https://www.instagram.com");
 		Reporter.log(driver.getTitle(),true);
 }
-	@Test
-	public static void demoA() {
-		Reporter.log("Create Customer",true);
-}
+	
 }
